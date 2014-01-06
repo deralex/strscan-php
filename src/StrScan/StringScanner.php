@@ -230,6 +230,18 @@ class StringScanner
         return $this->source;
     }
 
+
+    public function setSource($source)
+    {
+        $this->source = $source;
+        $this->length = mb_strlen($source);
+        $this->head = 0;
+        $this->last= 0;
+        $this->captures = array();
+        $this->match = null;
+        $this->reset();
+    }
+
     /**
      * Returns the portion of the source string from the scanner’s position
      * onward.
