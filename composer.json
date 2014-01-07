@@ -1,5 +1,5 @@
 {
-    "name": "strscan/strscan",
+    "name": "deralex/strscan",
     "description": "Simple string tokenizer for lexical scanning operations",
     "keywords": ["scanner", "lexer"],
     "type": "library",
